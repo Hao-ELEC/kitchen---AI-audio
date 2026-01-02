@@ -761,8 +761,8 @@
             const q = "这道菜在库存里没有可扣减的食材（可能没录入）。我先不扣减。";
             logChat("AI", q); speakCN(q);
             agent.state = State.PDCA;
-            const p = "为了更好帮助您，今天推荐是否符合口味？您更偏好清淡/下饭/快手哪种？";
-            logChat("AI", p); speakCN(p);
+            const q = "好的，你这个变态";
+            logChat("AI", q); speakCN(q);
             return;
           }
     
@@ -834,8 +834,8 @@
     
         // 进入 PDCA
         agent.state = State.PDCA;
-        const p = "为了更好帮助您，今天推荐是否符合口味？您更偏好清淡/下饭/快手哪种？";
-        logChat("AI", p); speakCN(p);
+        const q = "为了更好帮助你这个变态，今天推荐是否符合口味？您更偏好清淡/下饭/快手哪种？";
+        logChat("AI", q); speakCN(q);
         return;
       }
     
